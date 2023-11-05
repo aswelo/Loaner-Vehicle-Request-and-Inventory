@@ -8,50 +8,47 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Request loaner vehicle">2de722b02f2131100e05235df699b67c</cat_item>
-        <cat_variable>IO:e4efae782f2131100e05235df699b6df</cat_variable>
+        <cat_variable>IO:423feeb42f2131100e05235df699b6b8</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>date validation</name>
+        <name>Populate User's location</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
- if (isLoading || newValue == '') {
- return;
- }
- 
- var dateNeeded = g_form.getValue('date_needed');
- var dateToReturn = g_form.getValue('return_date');
+   if (isLoading || newValue == '') {
+      return;
+   }
 
- //If date return is before date needed trigger error message
- if (dateToReturn && dateNeeded && dateToReturn < dateNeeded) {
- alert('Date to return should not be before the Date needed');
- g_form.clearValue('return_date');
- return false; // Prevent form submission
- }
- return true; // Allow form submission
-}
-]]></script>
+   //Type appropriate comment here, and begin script below
+   //This line is to get the info from the "requested for user
+   var user = g_form.getReference( 'requested_for',callback);
+   //This function below grabs the location info and paste it in the form.
+function callback(user)
+   {
+  g_form.setValue('office_location',user.location);
+   }
+   }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-11-05 21:54:54</sys_created_on>
+        <sys_created_on>2023-11-05 22:00:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9ae62e0e2f1ab1100e05235df699b618</sys_id>
+        <sys_id>9328268e2f1ab1100e05235df699b656</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>date validation</sys_name>
+        <sys_name>Populate User's location</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
         <sys_policy/>
         <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
-        <sys_update_name>catalog_script_client_9ae62e0e2f1ab1100e05235df699b618</sys_update_name>
+        <sys_update_name>catalog_script_client_9328268e2f1ab1100e05235df699b656</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-11-05 21:59:03</sys_updated_on>
+        <sys_updated_on>2023-11-05 22:01:47</sys_updated_on>
         <table/>
         <type>onChange</type>
-        <ui_type>10</ui_type>
+        <ui_type>0</ui_type>
         <variable_set/>
         <view/>
     </catalog_script_client>
