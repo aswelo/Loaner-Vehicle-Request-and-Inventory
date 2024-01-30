@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b9c4ac5c2fa131100e05235df699b617" label="Vehicle servicing" max_length="40" name="x_919130_loaner_0_vehicle_servicing" type="collection">
+        <element label="Date sent for servicing" mandatory="true" max_length="40" name="date_sent_for_servicing" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Ticket status" mandatory="true" max_length="40" name="ticket_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="100" value="open"/>
+                <element inactive_on_update="false" label="Closed" sequence="200" value="closed"/>
+            </choice>
+        </element>
+        <element label="Vehicle" mandatory="true" max_length="32" name="vehicle" reference="x_919130_loaner_0_loaner_vehicle_catalog" type="reference"/>
+        <element label="Vehicle issues" mandatory="true" max_length="1000" name="vehicle_issues" type="string"/>
+        <element label="Vehicle tracker" mandatory="true" max_length="32" name="vehicle_servicing" reference="x_919130_loaner_0_vehicle_tracker" type="reference"/>
+        <element choice="1" label="Vehicle Status" mandatory="true" max_length="40" name="vehicle_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Decommissioned" value="decommissioned"/>
+                <element inactive_on_update="false" label="In service" value="in service"/>
+                <element inactive_on_update="false" label="Returned to warehouse" value="returned to warehouse"/>
+            </choice>
+        </element>
+        <element label="work performed" mandatory="true" max_length="1000" name="work_performed" type="string"/>
+        <index name="index">
+            <element name="vehicle"/>
+        </index>
+        <index name="index2">
+            <element name="vehicle_servicing"/>
+        </index>
+    </element>
+</database>

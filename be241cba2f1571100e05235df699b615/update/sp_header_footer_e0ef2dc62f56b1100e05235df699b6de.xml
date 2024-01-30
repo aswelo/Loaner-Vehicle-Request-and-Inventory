@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>* {&#13;
+  font-family: Roboto;&#13;
+}&#13;
+&#13;
+section {&#13;
+  width: 100%;&#13;
+  display: inline-block;&#13;
+  background: #ccc;&#13;
+  height: 60vh;&#13;
+  text-align: center;&#13;
+  font-size: 22px;&#13;
+  font-weight: 700;&#13;
+  text-decoration: underline;&#13;
+}&#13;
+&#13;
+.footer-distributed {&#13;
+  background-color: #000000;&#13;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);&#13;
+  box-sizing: border-box;&#13;
+  width: 100%;&#13;
+  text-align: left;&#13;
+  font: normal 16px sans-serif;&#13;
+  padding: 45px 50px;&#13;
+}&#13;
+&#13;
+.footer-distributed .footer-left p {&#13;
+  color: #ffffff;&#13;
+  font-size: 14px;&#13;
+  margin: 0;&#13;
+}&#13;
+/* Footer links */&#13;
+&#13;
+.footer-distributed p.footer-links {&#13;
+  font-size: 18px;&#13;
+  font-weight: bold;&#13;
+  color: #fce18d;&#13;
+  margin: 0 0 10px;&#13;
+  padding: 0;&#13;
+  transition: ease .25s;&#13;
+}&#13;
+&#13;
+.footer-distributed p.footer-links a {&#13;
+  display: inline-block;&#13;
+  line-height: 1.8;&#13;
+  text-decoration: none;&#13;
+  color: inherit;&#13;
+  transition: ease .25s;&#13;
+}&#13;
+&#13;
+.footer-distributed .footer-links a:before {&#13;
+  content: "·";&#13;
+  font-size: 20px;&#13;
+  left: 0;&#13;
+  color: #fff;&#13;
+  display: inline-block;&#13;
+  padding-right: 5px;&#13;
+}&#13;
+&#13;
+.footer-distributed .footer-links .link-1:before {&#13;
+  content: none;&#13;
+}&#13;
+&#13;
+.footer-distributed .footer-right {&#13;
+  float: right;&#13;
+  margin-top: 6px;&#13;
+  max-width: 180px;&#13;
+}&#13;
+&#13;
+.footer-distributed .footer-right a {&#13;
+  display: inline-block;&#13;
+  width: 35px;&#13;
+  height: 35px;&#13;
+  background-color: #fce18d;&#13;
+  border-radius: 2px;&#13;
+  font-size: 20px;&#13;
+  color: #000000;&#13;
+  text-align: center;&#13;
+  line-height: 35px;&#13;
+  margin-left: 3px;&#13;
+  transition:all .25s;&#13;
+}&#13;
+&#13;
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}&#13;
+&#13;
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}&#13;
+&#13;
+/* Media Queries */&#13;
+&#13;
+@media (max-width: 600px) {&#13;
+  .footer-distributed .footer-left, .footer-distributed .footer-right {&#13;
+    text-align: center;&#13;
+  }&#13;
+  .footer-distributed .footer-right {&#13;
+    float: none;&#13;
+    margin: 0 auto 20px;&#13;
+  }&#13;
+  .footer-distributed .footer-left p.footer-links {&#13;
+    line-height: 1.8;&#13;
+  }&#13;
+}&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>lva footer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-05 17:54:53</sys_created_on>
+        <sys_id>e0ef2dc62f56b1100e05235df699b6de</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>lva footer</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_update_name>sp_header_footer_e0ef2dc62f56b1100e05235df699b6de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 04:05:13</sys_updated_on>
+        <template><![CDATA[<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/arietwelo/"><i class="fa fa-linkedin"></i></a>
+				
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="#">Contact Us</a>
+		    	<p>Elite Luxury Car Service</p>
+              <p>2800 Westhemier Rd. Suite 13</p>
+              <p>Miami, FL</p>
+              <p>281-330-8004 </p>
+			</div>
+         
+
+		</footer>
+
+
+]]></template>
+    </sp_header_footer>
+</record_update>

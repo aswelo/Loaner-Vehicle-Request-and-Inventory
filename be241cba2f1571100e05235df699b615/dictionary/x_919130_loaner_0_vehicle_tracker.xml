@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="f0a4c4102f6131100e05235df699b671" label="Vehicle tracker" max_length="40" name="x_919130_loaner_0_vehicle_tracker" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Actual return date" max_length="40" name="actual_return_date" type="glide_date"/>
+        <element label="Additional comments" max_length="1000" name="additional_comments" type="string"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Date requested" max_length="40" name="date_requested" type="glide_date"/>
+        <element label="Delivery information" max_length="1000" name="delivery_information" type="string"/>
+        <element label="Expected return date" max_length="40" name="expected_return_date" type="glide_date"/>
+        <element label="location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="request number" mandatory="true" max_length="32" name="request_number" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="return notes" max_length="1000" name="return_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Return vehicle status" max_length="40" name="return_vehicle_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="returned with good condition" value="returned with good condition"/>
+                <element inactive_on_update="false" label="returned with major issues" value="returned with major issues"/>
+                <element inactive_on_update="false" label="returned with minor issues" value="returned with minor issues"/>
+            </choice>
+        </element>
+        <element choice="1" label="Tracker status" mandatory="true" max_length="40" name="tracker_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+                <element inactive_on_update="false" label="Open" value="open"/>
+            </choice>
+        </element>
+        <element label="Vehicle" mandatory="true" max_length="32" name="vehicle" reference="x_919130_loaner_0_loaner_vehicle_catalog" type="reference"/>
+        <element choice="1" label="Vehicle status" mandatory="true" max_length="40" name="vehicle_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Decommissioned" value="decommissioned"/>
+                <element inactive_on_update="false" label="Out on field" value="out on field"/>
+                <element inactive_on_update="false" label="Pending release" value="pending release"/>
+                <element inactive_on_update="false" label="Returned for inspection" value="returned for inspection"/>
+                <element inactive_on_update="false" label="Returned to warehouse" value="returned to warehouse"/>
+                <element inactive_on_update="false" label="Sent for servicing" value="sent for servicing"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="request_number"/>
+        </index>
+        <index name="index4">
+            <element name="vehicle"/>
+        </index>
+    </element>
+</database>

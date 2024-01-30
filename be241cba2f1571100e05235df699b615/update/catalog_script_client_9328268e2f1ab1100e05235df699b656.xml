@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Request loaner vehicle">2de722b02f2131100e05235df699b67c</cat_item>
+        <cat_item display_value="Request Vehicle">2de722b02f2131100e05235df699b67c</cat_item>
         <cat_variable>IO:423feeb42f2131100e05235df699b6b8</cat_variable>
         <condition/>
         <description/>

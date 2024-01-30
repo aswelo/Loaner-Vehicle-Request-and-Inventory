@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_919130_loaner_0_vehicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_919130_loaner_0_vehicle_tracker">vehicle_statusVALCHANGES^EQ<item display_value="-- None --" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>vehicle tracker status</name>
+        <order>400</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[var vts = current.vehicle_status; // Get the 'vehicle_status' value from the current record on the tracker table
+
+var gr = new GlideRecord('x_919130_loaner_0_loaner_vehicle_catalog'); // Create a GlideRecord object for the ()'x_919130_loaner_0_loaner_vehicle_catalog') table.
+
+gr.addQuery('sys_id', current.vehicle); // Add a query condition to find records where 'sys_id' matches the 'vehicle" field in the current record on the tracker table.
+
+gr.query(); // Execute the query.
+
+// Iterate through status on the tracker table. If true, change the status on the loaner table.
+if (gr.next()) {
+if (vts == 'pending release' || vts == 'out on field' || vts== 'returned for inspection' || vts== 'sent for servicing') {
+	gr.status= 'unavailable';
+} else if (vts== 'returned to warehouse') {
+	gr.status= 'available';
+} else if (vts== ' decomissioned') {
+	gr.status= 'decomissioned';
+}
+gr.update(); // Update the 'status' field in the loaner table with the new status value.
+}
+
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 19:34:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd988c442f0231100e05235df699b68e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>vehicle tracker status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_update_name>sys_script_cd988c442f0231100e05235df699b68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 22:02:07</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=cd988c442f0231100e05235df699b68e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</application>
+        <file_path/>
+        <instance_id>7fc3cfaedbf854909a4dcac50596198b</instance_id>
+        <instance_name>dev104139</instance_name>
+        <name>sys_script_cd988c442f0231100e05235df699b68e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_919130_loaner_0_vehicle_tracker&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_919130_loaner_0_vehicle_tracker"&gt;vehicle_statusVALCHANGES^EQ&lt;item display_value="-- None --" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;vehicle tracker status&lt;/name&gt;&lt;order&gt;400&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[var vts = current.vehicle_status; // Get the 'vehicle_status' value from the current record on the tracker table
+
+var gr = new GlideRecord('x_919130_loaner_0_loaner_vehicle_catalog'); // Create a GlideRecord object for the ()'x_919130_loaner_0_loaner_vehicle_catalog') table.
+
+gr.addQuery('sys_id', current.vehicle); // Add a query condition to find records where 'sys_id' matches the 'vehicle" field in the current record on the tracker table.
+
+gr.query(); // Execute the query.
+
+// Iterate through status on the tracker table. If true, change the status on the loaner table.
+if (gr.next()) {
+if (vts == 'pending release' || vts == 'out on field' || vts== 'returned for inspection' || vts== 'sent for servicing') {
+	gr.status= 'unavailable';
+} else if (vts== 'returned to warehouse') {
+	gr.status= 'available';
+} else if (vts== ' decomissioned') {
+	gr.status= 'decomissioned';
+}
+gr.update(); // Update the 'status' field in the loaner table with the new status value.
+}
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-17 19:34:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cd988c442f0231100e05235df699b68e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;vehicle tracker status&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0"&gt;be241cba2f1571100e05235df699b615&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory."&gt;be241cba2f1571100e05235df699b615&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_cd988c442f0231100e05235df699b68e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-31 22:02:07&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cd988c442f0231100e05235df699b68e"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-653823613</payload_hash>
+        <record_name>vehicle tracker status</record_name>
+        <reverted_from/>
+        <source>6deb50fe2f1571100e05235df699b646</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 22:02:07</sys_created_on>
+        <sys_id>1f9834202f1a31100e05235df699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b87c21e280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 22:02:07</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>93983420bb1a3110eaafe34201a64d94</update_guid>
+        <update_guid_history>93983420bb1a3110eaafe34201a64d94:-653823613,0865d42015563110bc16f06eec344a98:-1681379354,cf80d88c2702311003afa43e386f3e10:-1745686792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 22:54:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>40584dce222f4b10983d661fa33b4240</sys_id>
+        <sys_metadata>cd988c442f0231100e05235df699b68e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vehicle tracker status</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_parent display_value="Vehicle tracker">f0a4c4102f6131100e05235df699b671</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_scope_delete display_value="">9db2b3d6594f496899f940ad4f44ec10</sys_scope_delete>
+        <sys_update_name>sys_script_cd988c442f0231100e05235df699b68e</sys_update_name>
+        <sys_update_version display_value="sys_script_cd988c442f0231100e05235df699b68e">1f9834202f1a31100e05235df699b694</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 22:54:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

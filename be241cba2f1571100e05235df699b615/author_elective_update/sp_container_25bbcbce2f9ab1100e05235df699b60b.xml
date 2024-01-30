@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color>#000000</background_color>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>lva app - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="lva_app">e9b7f2812f1231100e05235df699b6e4</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 00:35:41</sys_created_on>
+        <sys_id>25bbcbce2f9ab1100e05235df699b60b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>lva app - Container 2</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_update_name>sp_container_25bbcbce2f9ab1100e05235df699b60b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 00:38:32</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</application>
+        <file_path/>
+        <instance_id>7fc3cfaedbf854909a4dcac50596198b</instance_id>
+        <instance_name>dev104139</instance_name>
+        <name>sp_container_25bbcbce2f9ab1100e05235df699b60b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color>#000000</background_color><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>lva app - Container 2</name><order>2</order><sp_page display_value="lva_app">e9b7f2812f1231100e05235df699b6e4</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-06 00:35:41</sys_created_on><sys_id>25bbcbce2f9ab1100e05235df699b60b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>lva app - Container 2</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope><sys_update_name>sp_container_25bbcbce2f9ab1100e05235df699b60b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-06 00:38:32</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-270418957</payload_hash>
+        <record_name>lva app - Container 2</record_name>
+        <reverted_from/>
+        <source>6deb50fe2f1571100e05235df699b646</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 00:38:32</sys_created_on>
+        <sys_id>535c8b022fdab1100e05235df699b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba2111d9e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 00:38:32</sys_updated_on>
+        <type>Container</type>
+        <update_guid>5b5c8b0220dab11025fdda6ec0a36fd9</update_guid>
+        <update_guid_history>5b5c8b0220dab11025fdda6ec0a36fd9:-270418957,e1bbcbcef49ab110cf019626b519df0c:-2145862412</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="lva app - Container 2">0d6d0f422fdab1100e05235df699b6cc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 00:43:01</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>03ae3d455f544c1e80d4979d88f90301</sys_id>
+        <sys_metadata>25bbcbce2f9ab1100e05235df699b60b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lva app - Container 2</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_scope_delete display_value="">9db2b3d6594f496899f940ad4f44ec10</sys_scope_delete>
+        <sys_update_name>sp_container_25bbcbce2f9ab1100e05235df699b60b</sys_update_name>
+        <sys_update_version display_value="sp_container_25bbcbce2f9ab1100e05235df699b60b">535c8b022fdab1100e05235df699b6da</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 00:43:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

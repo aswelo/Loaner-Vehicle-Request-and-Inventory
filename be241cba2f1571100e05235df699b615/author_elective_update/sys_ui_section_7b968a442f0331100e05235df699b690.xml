@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="7b968a442f0331100e05235df699b690" sys_domain="global" table="x_919130_loaner_0_testdec6" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 21:13:49</sys_created_on>
+            <sys_id>72c60e442f0331100e05235df699b6ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_919130_loaner_0_testdec6" sys_domain="global" view="Default view">7b968a442f0331100e05235df699b690</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 21:13:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 21:13:49</sys_created_on>
+            <sys_id>3ac60e442f0331100e05235df699b6ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_919130_loaner_0_testdec6" sys_domain="global" view="Default view">7b968a442f0331100e05235df699b690</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 21:13:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_919130_loaner_0_testdec6</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-06 21:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b968a442f0331100e05235df699b690</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_919130_loaner_0_testdec6</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+            <sys_update_name>sys_ui_section_7b968a442f0331100e05235df699b690</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-06 21:13:03</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</application>
+        <file_path/>
+        <instance_id>7fc3cfaedbf854909a4dcac50596198b</instance_id>
+        <instance_name>dev104139</instance_name>
+        <name>sys_ui_section_7b968a442f0331100e05235df699b690</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="7b968a442f0331100e05235df699b690" sys_domain="global" table="x_919130_loaner_0_testdec6" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_updated_on</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 21:13:49</sys_created_on><sys_id>72c60e442f0331100e05235df699b6ee</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_919130_loaner_0_testdec6" sys_domain="global" view="Default view">7b968a442f0331100e05235df699b690</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 21:13:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_updated_by</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 21:13:49</sys_created_on><sys_id>3ac60e442f0331100e05235df699b6ee</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_919130_loaner_0_testdec6" sys_domain="global" view="Default view">7b968a442f0331100e05235df699b690</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 21:13:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_919130_loaner_0_testdec6</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-06 21:13:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7b968a442f0331100e05235df699b690</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_919130_loaner_0_testdec6</sys_name><sys_overrides/><sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope><sys_update_name>sys_ui_section_7b968a442f0331100e05235df699b690</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-06 21:13:03</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1688118998</payload_hash>
+        <record_name>testdec6</record_name>
+        <reverted_from/>
+        <source>6deb50fe2f1571100e05235df699b646</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-06 21:13:49</sys_created_on>
+        <sys_id>8bc60e442f0331100e05235df699b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c40fad54c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-06 21:13:49</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>03c60e4476033110fd755b0a831ecef0</update_guid>
+        <update_guid_history>03c60e4476033110fd755b0a831ecef0:1688118998,3f968a4445033110424801e5c55aa593:-247834077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 21:47:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2d52a8ee8a2c46e698cece579f0a7db1</sys_id>
+        <sys_metadata>7b968a442f0331100e05235df699b690</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_919130_loaner_0_testdec6</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_parent display_value="">6d86c6442f0331100e05235df699b65f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_scope_delete display_value="">9db2b3d6594f496899f940ad4f44ec10</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7b968a442f0331100e05235df699b690</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7b968a442f0331100e05235df699b690">8bc60e442f0331100e05235df699b6f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 21:47:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

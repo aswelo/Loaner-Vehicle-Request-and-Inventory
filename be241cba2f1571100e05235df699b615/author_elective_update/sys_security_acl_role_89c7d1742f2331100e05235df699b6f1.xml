@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 22:15:11</sys_created_on>
+        <sys_id>89c7d1742f2331100e05235df699b6f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_919130_loaner_0_test4.x_919130_loaner_0.admin</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_security_acl display_value="x_919130_loaner_0_test4">c1c7d1742f2331100e05235df699b6ef</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_89c7d1742f2331100e05235df699b6f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 22:15:11</sys_updated_on>
+        <sys_user_role display_value="x_919130_loaner_0.admin" name="x_919130_loaner_0.admin">0f241cba2f1571100e05235df699b64d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</application>
+        <file_path/>
+        <instance_id>7fc3cfaedbf854909a4dcac50596198b</instance_id>
+        <instance_name>dev104139</instance_name>
+        <name>sys_security_acl_role_89c7d1742f2331100e05235df699b6f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-02 22:15:11</sys_created_on><sys_id>89c7d1742f2331100e05235df699b6f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_919130_loaner_0_test4.x_919130_loaner_0.admin</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope><sys_security_acl display_value="x_919130_loaner_0_test4">c1c7d1742f2331100e05235df699b6ef</sys_security_acl><sys_update_name>sys_security_acl_role_89c7d1742f2331100e05235df699b6f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-02 22:15:11</sys_updated_on><sys_user_role display_value="x_919130_loaner_0.admin" name="x_919130_loaner_0.admin">0f241cba2f1571100e05235df699b64d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1199679177</payload_hash>
+        <record_name>x_919130_loaner_0_test4.x_919130_loaner_0.admin</record_name>
+        <reverted_from/>
+        <source>6deb50fe2f1571100e05235df699b646</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 22:15:11</sys_created_on>
+        <sys_id>8dc7d1742f2331100e05235df699b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ccc3eb68f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 22:15:11</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c1c7d17468233110bd556331c9fd5df3</update_guid>
+        <update_guid_history>c1c7d17468233110bd556331c9fd5df3:-1199679177</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_919130_loaner_0_test4.x_919130_loaner_0.admin">20a1de172f2331100e05235df699b618</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 20:52:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>08e9442262734b6eb6494e45903d8be4</sys_id>
+        <sys_metadata>89c7d1742f2331100e05235df699b6f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_919130_loaner_0_test4.x_919130_loaner_0.admin</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_parent display_value="">c1c7d1742f2331100e05235df699b6ef</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_scope_delete display_value="">9db2b3d6594f496899f940ad4f44ec10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_89c7d1742f2331100e05235df699b6f1</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_89c7d1742f2331100e05235df699b6f1">8dc7d1742f2331100e05235df699b6f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 20:52:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

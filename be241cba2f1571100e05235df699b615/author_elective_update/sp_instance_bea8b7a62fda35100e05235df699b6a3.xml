@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">7aa8b7a62fda35100e05235df699b69f</sp_column>
+        <sp_widget display_value="KB Most Viewed">7d903b52cb30020000f8d856634c9ce3</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-07 17:09:04</sys_created_on>
+        <sys_id>bea8b7a62fda35100e05235df699b6a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Most Viewed Articles</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_update_name>sp_instance_bea8b7a62fda35100e05235df699b6a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-07 17:09:04</sys_updated_on>
+        <title>Most Viewed Articles</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=bea8b7a62fda35100e05235df699b6a3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</application>
+        <file_path/>
+        <instance_id>7fc3cfaedbf854909a4dcac50596198b</instance_id>
+        <instance_name>dev104139</instance_name>
+        <name>sp_instance_bea8b7a62fda35100e05235df699b6a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="2">7aa8b7a62fda35100e05235df699b69f</sp_column><sp_widget display_value="KB Most Viewed">7d903b52cb30020000f8d856634c9ce3</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-07 17:09:04</sys_created_on><sys_id>bea8b7a62fda35100e05235df699b6a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Most Viewed Articles</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope><sys_update_name>sp_instance_bea8b7a62fda35100e05235df699b6a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-07 17:09:04</sys_updated_on><title>Most Viewed Articles</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=bea8b7a62fda35100e05235df699b6a3"/></record_update>]]></payload>
+        <payload_hash>153175231</payload_hash>
+        <record_name>Most Viewed Articles</record_name>
+        <reverted_from/>
+        <source>6deb50fe2f1571100e05235df699b646</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-07 17:09:04</sys_created_on>
+        <sys_id>baa8b7a62fda35100e05235df699b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18baac254090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-07 17:09:04</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>fea8b7a6a8da351059502a0f7e2a8da4</update_guid>
+        <update_guid_history>fea8b7a6a8da351059502a0f7e2a8da4:153175231</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Most Viewed Articles">ae89bba62fda35100e05235df699b692</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-07 17:12:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>3cfdaf6272fc4a1688c24fc728dafea4</sys_id>
+        <sys_metadata>bea8b7a62fda35100e05235df699b6a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Most Viewed Articles</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_scope_delete display_value="">9db2b3d6594f496899f940ad4f44ec10</sys_scope_delete>
+        <sys_update_name>sp_instance_bea8b7a62fda35100e05235df699b6a3</sys_update_name>
+        <sys_update_version display_value="sp_instance_bea8b7a62fda35100e05235df699b6a3">baa8b7a62fda35100e05235df699b6a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-07 17:12:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

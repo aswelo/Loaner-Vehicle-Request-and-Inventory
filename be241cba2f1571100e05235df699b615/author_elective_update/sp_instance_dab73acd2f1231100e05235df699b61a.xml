@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">8ab73acd2f1231100e05235df699b618</sp_column>
+        <sp_widget display_value="My Surveys">04b1cc07c3231200e44574e1c1d3ae96</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 20:34:25</sys_created_on>
+        <sys_id>dab73acd2f1231100e05235df699b61a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Surveys</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_update_name>sp_instance_dab73acd2f1231100e05235df699b61a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 20:34:25</sys_updated_on>
+        <title>My Surveys</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=dab73acd2f1231100e05235df699b61a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</application>
+        <file_path/>
+        <instance_id>7fc3cfaedbf854909a4dcac50596198b</instance_id>
+        <instance_name>dev104139</instance_name>
+        <name>sp_instance_dab73acd2f1231100e05235df699b61a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="2">8ab73acd2f1231100e05235df699b618</sp_column><sp_widget display_value="My Surveys">04b1cc07c3231200e44574e1c1d3ae96</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-02 20:34:25</sys_created_on><sys_id>dab73acd2f1231100e05235df699b61a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Surveys</sys_name><sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope><sys_update_name>sp_instance_dab73acd2f1231100e05235df699b61a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-02 20:34:25</sys_updated_on><title>My Surveys</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=dab73acd2f1231100e05235df699b61a"/></record_update>]]></payload>
+        <payload_hash>1048765540</payload_hash>
+        <record_name>My Surveys</record_name>
+        <reverted_from/>
+        <source>6deb50fe2f1571100e05235df699b646</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 20:34:25</sys_created_on>
+        <sys_id>1ab73acd2f1231100e05235df699b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b91be89dc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 20:34:25</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>5eb73acd8d12311012aa36c7288df81b</update_guid>
+        <update_guid_history>5eb73acd8d12311012aa36c7288df81b:1048765540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Surveys">f94c7a812f5231100e05235df699b61e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 20:54:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>3f46c5941554425c97d5401977d0b8c9</sys_id>
+        <sys_metadata>dab73acd2f1231100e05235df699b61a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Surveys</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory." source="x_919130_loaner_0">be241cba2f1571100e05235df699b615</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory.">be241cba2f1571100e05235df699b615</sys_scope>
+        <sys_scope_delete display_value="">9db2b3d6594f496899f940ad4f44ec10</sys_scope_delete>
+        <sys_update_name>sp_instance_dab73acd2f1231100e05235df699b61a</sys_update_name>
+        <sys_update_version display_value="sp_instance_dab73acd2f1231100e05235df699b61a">1ab73acd2f1231100e05235df699b61c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 20:54:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
